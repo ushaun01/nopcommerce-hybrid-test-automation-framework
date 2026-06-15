@@ -1,1 +1,1 @@
-nopcommerce
+nopcommerce-hybrid
