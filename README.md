@@ -1,153 +1,113 @@
- NopCommerce Hybrid Test Automation Framework using Selenium, Python and PyTest
+ 🚀 NopCommerce Hybrid Test Automation Framework using Selenium, Python & PyTest
 
- Project Objective
+ 🎯 Project Objective
 
 To automate critical functionalities of the NopCommerce Admin Application using Selenium WebDriver and PyTest by implementing a Hybrid Automation Framework that supports reusable components, data-driven testing, logging, reporting, screenshot capture, and maintainable test scripts.
 
 ---
 
- Project Overview
+ 📌 Project Overview
 
 This project is a Hybrid Test Automation Framework developed for the NopCommerce Admin Application using Python, Selenium WebDriver, and PyTest.
 
 The framework follows industry-standard automation practices such as:
 
-- Page Object Model (POM)
-  
-- Data-Driven Testing
-  
-- Configuration Management
-  
-- Logging
-  
-- Screenshot Capture
-  
-- HTML Reporting
-  
-- Reusable Utilities
+✅ Page Object Model (POM)
+
+✅ Data-Driven Testing
+
+✅ Configuration Management
+
+✅ Logging
+
+✅ Screenshot Capture
+
+✅ HTML Reporting
+
+✅ Reusable Utilities
 
 The framework is scalable, maintainable, and easy to extend for future automation requirements.
 
 ---
 
-## Why Hybrid Framework?
+ 🤔 Why Hybrid Framework?
 
 This framework combines multiple automation framework concepts:
 
-- Page Object Model (POM)
-  
-- Data-Driven Testing
-  
-- PyTest Framework
-  
-- Configuration Management
-  
-- Logging
-  
-- HTML Reporting
+🔹 Page Object Model (POM)
+
+🔹 Data-Driven Testing
+
+🔹 PyTest Framework
+
+🔹 Configuration Management
+
+🔹 Logging
+
+🔹 HTML Reporting
 
 Hence, it is designed as a Hybrid Test Automation Framework.
 
 ---
 
-## Tech Stack
+ 🛠️ Tech Stack
 
-- Python
-  
-- Selenium WebDriver
-  
-- PyTest
-  
-- OpenPyXL
-  
-- Page Object Model (POM)
-  
-- HTML Reports
-  
-- Git
-  
-- GitHub
+* 🐍 Python
+* 🌐 Selenium WebDriver
+* 🧪 PyTest
+* 📊 OpenPyXL
+* 📄 Page Object Model (POM)
+* 📈 HTML Reports
+* 🔧 Git
+* 💻 GitHub
 
 ---
 
-## Requirements
+📋 Requirements
 
-- Python 3.x
-  
-- Selenium WebDriver
-  
-- PyTest
-  
-- OpenPyXL
-  
-- Google Chrome Browser
-  
-- ChromeDriver
+* Python 3.x
+* Selenium WebDriver
+* PyTest
+* OpenPyXL
+* Google Chrome Browser
+* ChromeDriver
 
 ---
 
-## Project Structure
+📁 Project Structure
 
 ```text
 nopcommerce-hybrid-test-automation-framework-project
 
 ├── base_pages
-│   ├── __init__.py
-│   ├── add_customer.py
-│   ├── login_admin_page.py
-│   └── search_customer.py
-│
 ├── configurations
-│   └── config.ini
-│
 ├── logs
-│   └── nopcommerce.log
-│
 ├── reports
-│
 ├── screenshots
-│   └── invalid_login.png
-│
 ├── test_cases
-│   ├── __init__.py
-│   ├── conftest.py
-│   ├── pytest.ini
-│   ├── test_admin_login.py
-│   ├── test_admin_login_datadriven.py
-│   ├── test_add_customer.py
-│   └── test_search_customer.py
-│
 ├── test_data
-│   ├── admin_login_data.csv
-│   └── admin_login_data.xlsx
-│
 ├── utilities
-│   ├── __init__.py
-│   ├── custom_logger.py
-│   ├── excel_utilities.py
-│   └── read_properties.py
-│
 └── README.md
 ```
 
 ---
 
-Test Scenarios Covered
+✅ Test Scenarios Covered
 
- Admin Login Test
+### 🔐 Admin Login Test
 
-- Verify login with valid credentials
-- Verify successful dashboard navigation
+* Verify login with valid credentials
+* Verify successful dashboard navigation
 
 **File:** `test_admin_login.py`
 
 ---
 
- Data-Driven Login Test
+### 📊 Data-Driven Login Test
 
-- Read multiple login credentials from Excel
-- Execute login test for each dataset
-- Validate expected results
+* Read multiple login credentials from Excel
+* Execute login test for each dataset
+* Validate expected results
 
 **File:** `test_admin_login_datadriven.py`
 
@@ -155,72 +115,71 @@ Test Scenarios Covered
 
 ---
 
- Add Customer Test
+### 👤 Add Customer Test
 
-- Login to Admin Panel
-- Navigate to Customer Module
-- Add New Customer
-- Verify customer creation
+* Login to Admin Panel
+* Navigate to Customer Module
+* Add New Customer
+* Verify customer creation
 
 **File:** `test_add_customer.py`
 
 ---
 
- Search Customer Test
+### 🔎 Search Customer Test
 
-- Search Customer by Email
-- Search Customer by Name
-- Validate search results
+* Search Customer by Email
+* Search Customer by Name
+* Validate search results
 
 **File:** `test_search_customer.py`
 
 ---
 
-## Utilities Implemented
+## ⚙️ Utilities Implemented
 
- Configuration Reader
+### 📄 Configuration Reader
 
 Reads application configuration data such as:
 
-- URL
-- Username
-- Password
-
+* URL
+* Username
+* Password
 
 **File:** `read_properties.py`
 
 ---
 
- Excel Utilities
+ 📊 Excel Utilities
 
 Used for Data-Driven Testing.
 
 Functions include:
 
-- Get Row Count
-- Get Column Count
-- Read Cell Data
-- Write Cell Data
+* Get Row Count
+* Get Column Count
+* Read Cell Data
+* Write Cell Data
 
 **File:** `excel_utilities.py`
 
 ---
 
- Custom Logger
+📝 Custom Logger
 
 Generates detailed execution logs to support debugging and result tracking.
 
 **File:** `custom_logger.py`
 
-**Log Location:** `logs/nopcommerce.log`
+📍 Log Location: `logs/nopcommerce.log`
 
 ---
 
-Screenshot Capture
+📸 Screenshot Capture
 
 The framework automatically captures screenshots when test execution fails.
 
-Screenshot Location:
+📂 Screenshot Location:
 
 ```text
 screenshots/
@@ -234,21 +193,21 @@ invalid_login.png
 
 ---
 
- Installation
+ ⚡ Installation
 
- Clone Repository
+ 📥 Clone Repository
 
 ```bash
 git clone https://github.com/ushaun01/nopcommerce-hybrid-test-automation-framework-project.git
 ```
 
- Navigate to Project Directory
+📂 Navigate to Project Directory
 
 ```bash
 cd nopcommerce-hybrid-test-automation-framework-project
 ```
 
-Install Required Packages
+ 📦 Install Required Packages
 
 ```bash
 pip install -r requirements.txt
@@ -256,33 +215,33 @@ pip install -r requirements.txt
 
 ---
 
- Test Execution
+ ▶️ Test Execution
 
- Run All Test Cases
+Run All Test Cases
 
 ```bash
 pytest -v
 ```
 
- Run Login Test
+Run Login Test
 
 ```bash
 pytest test_cases/test_admin_login.py -v
 ```
 
-Run Data-Driven Login Test
+### Run Data-Driven Login Test
 
 ```bash
 pytest test_cases/test_admin_login_datadriven.py -v
 ```
 
-Run Add Customer Test
+### Run Add Customer Test
 
 ```bash
 pytest test_cases/test_add_customer.py -v
 ```
 
-Run Search Customer Test
+### Run Search Customer Test
 
 ```bash
 pytest test_cases/test_search_customer.py -v
@@ -290,19 +249,23 @@ pytest test_cases/test_search_customer.py -v
 
 ---
 
-Reporting
+ 📈 Reporting
 
 PyTest HTML Reports are generated after test execution.
 
 The report provides:
 
-- Total Test Cases Executed
-- Passed Test Cases
-- Failed Test Cases
-- Execution Time
-- Detailed Execution Results
+✅ Total Test Cases Executed
 
-Report Location:
+✅ Passed Test Cases
+
+✅ Failed Test Cases
+
+✅ Execution Time
+
+✅ Detailed Execution Results
+
+📂 Report Location:
 
 ```text
 reports/
@@ -310,7 +273,7 @@ reports/
 
 ---
 
- Key Features
+ ⭐ Key Features
 
 ✔ Page Object Model (POM)
 
@@ -336,9 +299,14 @@ reports/
 
 ---
 
-Author
+ 👩‍💻 Author
 
-Usha Nazare
+ Usha Nazare
 
+🔹 Former Quality Engineer with 3 years of experience in the Automobile Manufacturing Industry.
 
-Former Quality Engineer with 3 years of experience in the Automobile Manufacturing Industry, transitioned into Software Testing.
+🔹 Transitioned into Software Testing with hands-on experience in Manual Testing and Automation Testing.
+
+🔹 Skilled in Python, Selenium WebDriver, PyTest, API Testing, MySQL, Git, GitHub, and Jira.
+
+🌟 Passionate about Quality Assurance, Test Automation, and Continuous Learning.
